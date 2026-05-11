@@ -3,9 +3,95 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cause:wght@100..900&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Smooch+Sans:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
   <body>
-    <h1>Hello world!</h1>
+    <header>
+      <div class="div-logo">
+        <a class="logo" href="./index.html">
+          <img class="logo-img" src="./img/logo.webp" alt="logo" />
+        </a>
+      </div>
+
+      <nav class="header-nav">
+        <ul>
+          <li>
+            <a href="./index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="./pages/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="titulo-home text-secondary">Bienvenidos a mi tienda :D</h1>
+      <p class="parrafo">
+        Acá vas a encontrar videojuegos que han marcado mi vida de una u otra
+        forma. Claramente esto es una opinión personal, cada quien puede ver lo
+        mismo con otros ojos, pero en mi experiencia, la cantidad de horas que
+        le he dedicado a cada uno de estos juegos representa una parte de mi
+        vida que siempre voy a recordar.
+      </p>
+
+      <section>
+        <h2 class="titulo-productos">Mejores videojuegos de la historia</h2>
+        <div class="contenedor-tarjetas">
+          <article class="card text-dark">
+            <img src="./img/celeste.webp" alt="celeste cover" />
+            <h3>Celeste</h3>
+            <p>2D Hardcore Platforming game</p>
+            <p>Precio: $10</p>
+            <button class="btn bg-secondary text-dark">
+              Agregar al carrito
+            </button>
+          </article>
+
+          <article class="card">
+            <img src="./img/crosscode.jpeg" alt="crosscode cover" />
+            <h3>Crosscode</h3>
+            <p>Retro-inspired 2D Action RPG</p>
+            <p>Precio: $10</p>
+            <button class="btn bg-secondary text-dark">
+              Agregar al carrito
+            </button>
+          </article>
+
+          <article class="card">
+            <img src="./img/mainkra.jpg" alt="minecraft cover" />
+            <h3>Minecraft</h3>
+            <p>It's Minecraft...</p>
+            <p>Precio: $30</p>
+            <button class="btn bg-secondary text-dark">
+              Agregar al carrito
+            </button>
+          </article>
+
+          <article class="card">
+            <img src="./img/ebf5.webp" alt="epic battle fantasy 5" />
+            <h3>Epic Battle Fantasy 5</h3>
+            <p>Retro Indie Turn-based RPG</p>
+            <p>Precio: $15</p>
+            <button class="btn bg-secondary text-dark">
+              Agregar al carrito
+            </button>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Sitio realizado por Ignacio Mercaich para Talento Tech</p>
+      <nav>
+        <ul class="footer-list">
+          <li><img src="./img/whatsapp.png" alt="logo de whatsapp" /></li>
+          <li><img src="./img/social.png" alt="logo de whatsapp" /></li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
