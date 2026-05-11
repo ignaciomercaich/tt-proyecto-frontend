@@ -55,6 +55,11 @@ h2 {
   border-radius: 1rem;
 }
 
+.btn:hover {
+  cursor: pointer;
+  background-color: #76adc2;
+}
+
 header,
 footer {
   background: #544aa9;
